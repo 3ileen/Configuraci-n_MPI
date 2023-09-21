@@ -51,7 +51,7 @@ int main() {
     printf("\n");
 */
     double elapsed_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;
-    printf("Tiempo de ejecución: %f segundos\n", elapsed_time);
+    printf("Tiempo de ejecución: %f nanosegundos\n", elapsed_time);
 
     return 0;
 }
